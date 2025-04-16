@@ -1,0 +1,29 @@
+@media screen and (min-width:200px) and (max-width:515px) {
+    .container__name h1{
+        font-size: 40px;
+    }
+
+    .container__btn {
+        display: flex
+        ;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 26px;
+    }
+
+    .container__btn .project {
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        border: 1px solid rgba(128, 128, 128, 0.486);
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        padding: 20px;
+    }
+
+
+    .margin{
+        margin: 0px;
+    }
+
+}
