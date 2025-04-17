@@ -19,7 +19,6 @@ html {
 
 .control_topo {
   margin-top: 100px;
-  margin-bottom: 100px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -84,10 +83,11 @@ html {
 
 .container__article img {
   width: 100%;
+  height: 130px;
   border-radius: 8px;
 }
 
-a {
+.cards a {
   background-color: #7f66ff;
   color: white;
   border: none;
@@ -98,6 +98,27 @@ a {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+}
+
+
+.icons{
+  font-size: 30px;
+  padding: 12px;
+}
+
+.icons i{
+  padding: 5px;
+}
+
+.iconse i {
+  color: #fff;
+  font-size: 40px;
+  transition: color 0.3s;
+}
+
+.icons i:hover {
+  color: #7f66ff;
+  cursor: pointer;
 }
 
 
@@ -121,6 +142,8 @@ a {
     width: 300px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    font-size: 20px;
+  font-family: "Inter", sans-serif;
 }
 .card:hover {
     transform: translateY(-5px);
@@ -198,5 +221,59 @@ a {
   
   .control__contact input[type="submit"]:hover {
     background-color: #6b55e0;
+  }
+
+
+  .container__sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+    padding: 0px;
+    flex-wrap: nowrap;
+  }
+  
+  .container__img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container__img img {
+    background-color: #6b55e0;
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+
+  .container__text h1{
+    font-size: 40px;
+  color: #686ff6;
+
+  }
+  .container__text p{
+    width: 700px;
+    line-height: 1.5;
+  }
+
+  .container__img a button {
+    font-size: 94px;
+    padding: 12px 24px;
+    background-color: transparent;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    top: 377px;
+    left: -145px;
+  }
+  
+  .container__img a button:hover {
+    transform: scale(1.29);
   }
   
